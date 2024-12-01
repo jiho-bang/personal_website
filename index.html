@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JiHo Bang Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/ponki.jpg">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">JB</div>
+            <div class="logo-text">JiHo Bang Website</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Academics</a>
+                </li>
+                <li>
+                    <a href="#project">Projects</a>
+                </li>
+                <li>
+                    <a href="#work">Work Experience</a>
+                </li>
+                <li>
+                    <a href="#">Personal</a>
+                </li>
+                <li>
+                    <a href="mailto:jihobang@berkeley.edu" class="button">Contact Me!</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMenu()">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+                </svg>                  
+            </a> 
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h0>About me!</h0>
+                    <h1><small>Hi I'm</small>
+                        JiHo Bang
+                    </h1>
+                    <p>
+                        Welcome to my personal website! I am a Korean/Ecuadorian graduate from UC Berkeley with degrees in Computer Science and Data Science (domain emphasis: business and industrial analytics). I hope you enjoy this website, half as much as I enjoyed making it! Please keep in touch!
+                    </p>
+                    <div class="action">
+                        <a href="./imgs/ponki.jpg" class="button black">
+                            View Resume
+                        </a>
+                        <a href="mailto:jihobang@berkeley.edu" class="button white">
+                            Contact Me!
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">
+                            <img src="./imgs/github.png" alt="GitHub" width="48" />
+                        </a>
+                        <a href="#">
+                            <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+                        </a>
+                        <a href="#">
+                            <img src="./imgs/gmail.png" alt="Gmail" width="48" />
+                        </a>
+                        <a href="#">
+                            <img src="./imgs/instagram.png" alt="Instagram" width="48" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-red">
+                <img src="./imgs/jiho2.png" alt="JiHo Bang" width="100%" />
+            </div>
+        </section>
+        <h4>
+            My Skills
+        </h4>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/sass.png" width="128" alt="Sass" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/azure.png" width="128" alt="Azure" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/sass.png" width="128" alt="Sass" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/azure.png" width="128" alt="Azure" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills container">
+            <div class="holder-yellow">
+                <div class="column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+						<li>Angular</li>
+						<li>Vue</li>
+                        <li>FILL OUT LATER</li>
+                    </ul>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>Ruby</li>
+                        <li>FILL OUT LATER</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Data Science</h3>
+                    <ul>
+                        <li>Machine Learning</li>
+                        <li>Pandas</li>
+                        <li>Jupyter</li>
+                        <li>Tableau</li>
+						<li>FILL OUT LATER</li>
+                    </ul>
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>C</li>
+                        <li>SQL</li>
+                        <li>Go</li>
+                        <li>Javascript</li>
+                        <li>Ruby</li>
+                        <li>R</li>
+                        <li>Matlab</li>
+                        <li>x86</li>
+                        <li>RISC-V</li>
+                        <li>Scheme</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <h3>Other</h3>
+                    <ul>
+                        <li>Trilingual</li>
+                        <li>Microsoft Office</li>
+                        <li>Jupyter</li>
+                        <li>Tableau</li>
+                        <li>Microsoft Office</li>
+                        <li>Jupyter</li>
+                        <li>Tableau</li>
+						<li>FILL OUT LATER</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="project" class="project container">
+            <h2>
+                <small>
+                    Previously
+                </small>
+                Completed Projects
+            </h2>
+            <div class="bento-grid">
+                <a href="#" class="bento-item">
+                    <img src="./imgs/bento1.jpg" alt="Bento 1" width="100%"/>
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/bento2.jpg" alt="Bento 2" width="100%"/>
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/bento4.JPG" alt="Bento 4" width="100%"/>
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/bento3.JPG" alt="Bento 3" width="100%"/>
+                </a>
+                <a href="#" class="bento-item">
+                    <img src="./imgs/bento5.JPG" alt="Bento 5" width="100%"/>
+                </a>
+                <!-- <a href="#" class="bento-item">
+                    <img src="./imgs/bento6.JPEG" alt="Bento 6" width="100%"/>
+                </a> -->
+            </div>
+        </section>
+        <section id="work" class="work container">
+            <h2>
+                <small>Recent</small>
+                Work Experience
+            </h2>
+            <div class="jobs">
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workplace-1.jpg" alt="Workplace 1" width="100%"/>
+                            <figcaption>
+                                Workplace - 1
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Workplace 1</h3>
+                    <div>2024</div>
+                    <p>Description</p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workplace-2.jpg" alt="Workplace 2" width="100%"/>
+                            <figcaption>
+                                Workplace - 2
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Workplace 2</h3>
+                    <div>2024</div>
+                    <p>Description</p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workplace-3.jpg" alt="Workplace 3" width="100%"/>
+                            <figcaption>
+                                Workplace - 3
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Workplace 3</h3>
+                    <div>2024</div>
+                    <p>Description</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a href="#" class="logo-holder">
+            <div class="logo">JB</div>
+            <div class="logo-text">JiHo Bang Website</div>
+        </a>
+        <div class="social-links">
+            <a href="#">
+                <img src="./imgs/github.png" alt="GitHub" width="48" />
+            </a>
+            <a href="#">
+                <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+            </a>
+            <a href="#">
+                <img src="./imgs/gmail.png" alt="Gmail" width="48" />
+            </a>
+            <a href="#">
+                <img src="./imgs/instagram.png" alt="Instagram" width="48" />
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
